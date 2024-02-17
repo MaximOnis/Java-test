@@ -8,7 +8,6 @@ public class ex4 {
         System.out.println(res);
     }
     public static String removeStr(String base, String remove){
-        String result = base.replaceAll("r", "");
-        return result;
+        return base.replaceAll(remove, "");
     }
 }
